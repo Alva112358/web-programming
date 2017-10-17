@@ -2,6 +2,7 @@
 /*--The calculator can only process the calculate of '+','-','*','/'---*/
 /*--Negative number cannot be process yet------------------------------*/
 #include "Calculator.hpp"
+#include <cmath>
 
 Calculator::Calculator() {
 	result = 0;
@@ -13,8 +14,8 @@ Calculator::Calculator(const string& expression) {
 }
 
 string Calculator::getExpression() {
-	if(!checkExpress()) {
-		return "ERROR!"
+	if(!checkExpress(expression)) {
+		return "ERROR!";
 	}
 	return expression;
 }
@@ -68,6 +69,14 @@ string Calculator::infixToPostfix(string &infix) {
 					}
 					m_stack.push(infix[i]);
 				}
+
+				else if(infix[i] == '^') {
+					while(!m_stack.empty() && m_stack.top() != '(' && m_stack.top() != '+' && m_stack.top() != '-' && m_stack.top() != '*' && m_stack.top() != '/') {
+						postfix += m_stack.top();
+						m_stack.pop();
+					}
+					m_stack.push(infix[i]);
+				}
 			}
 		}
 	}
@@ -115,6 +124,10 @@ double Calculator::postfixCalculate(string &postfix) {
 			else if(postfix[i] == '/') {
 				numberStore.push(numberTwo/numberOne);
 			}
+
+			else if(postfix[i] == '^') {
+				numberStore.push(pow(numberTwo,numberOne));
+			}
 		}
 	}
 
@@ -148,7 +161,7 @@ bool Calculator::isBrackMatching(string &expression) {
 bool Calculator::isExistingOtherSymbol(string &expression) {
 	for(int i = 0 ; i < expression.size() ; i++) {
 		if(!(expression[i] >= '0' && expression[i] <= '9' || expression[i] == '(' || expression[i] == ')' 
-			|| expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' || expression[i] == '.')) {
+			|| expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' || expression[i] == '.' || expression[i] == '^')) {
 			return true;
 		}
 	}
