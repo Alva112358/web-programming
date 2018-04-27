@@ -1,0 +1,105 @@
+html body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	background-image : url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508343372927&di=8994f7a5de06be676a12abe1dbc82d73&imgtype=0&src=http%3A%2F%2Fimg.ph.126.net%2F6RBB9MjwYPm75AibfUoK2g%3D%3D%2F3046403672940777949.jpg");
+}
+
+p {
+	font-weight: normal;
+	font-size: 12pt;
+}
+
+#SignUp {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	margin-top: 130px;
+	border: 1px solid black;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #368590;
+}
+
+#username {
+	position: absolute;
+	height: 30px;
+	width: 260px;
+	border: 1px solid black;
+	background-color: #FB9518;
+	left: 20px;
+	top: 80px;
+}
+
+#studentId {
+	position: absolute;
+	height: 30px;
+	width: 260px;
+	border: 1px solid black;
+	background-color: #FB9518;
+	left: 20px;
+	top: 120px;
+}
+
+#phone {
+	position: absolute;
+	height: 30px;
+	width: 260px;
+	border: 1px solid black;
+	background-color: #FB9518;
+	left: 20px;
+	top: 160px;
+}
+
+#email {
+	position: absolute;
+	height: 30px;
+	width: 260px;
+	border: 1px solid black;
+	background-color: #FB9518;
+	left: 20px;
+	top: 200px;
+}
+
+#quit {
+	position: absolute;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;	
+	background-color: #96A4C2;
+	left: 20px;
+	top: 240px;
+	font-size: 12pt;
+	text-decoration: none;
+	color: black;
+	line-height: 30px;
+	border: 1px solid black;
+}
+
+#quit:link {
+	color: black;
+}
+
+#quit:active {
+	box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#SignUp div p {
+	position: absolute;
+	left: 20px;
+	top: -12px;
+}
+
+#warning {
+	position: absolute;
+	top: 275px;
+	left: 20px;
+	color: red;
+}
+

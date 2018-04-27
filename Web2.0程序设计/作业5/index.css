@@ -1,0 +1,62 @@
+html body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	text-align:	center;
+	background-image : url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508343372927&di=8994f7a5de06be676a12abe1dbc82d73&imgtype=0&src=http%3A%2F%2Fimg.ph.126.net%2F6RBB9MjwYPm75AibfUoK2g%3D%3D%2F3046403672940777949.jpg");
+}
+
+a {
+	color: #00CC00;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30pt;
+}
+
+#outside {
+	position: relative;
+	height: 500px;
+	width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: #368590;
+	border-radius: 30px;
+	border: 1px solid black;
+}
+
+#game1 {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	left: 50px;
+	top: 100px;
+	background-color: #FB9518;
+	border: 1px solid black;
+	border-radius: 15px; 
+	line-height: 100px;
+}
+
+#game1:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#game2 {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	left: 50px;
+	bottom: 100px;
+	background-color: #FB9518;
+	border: 1px solid black;
+	border-radius: 15px; 
+	line-height: 100px;
+}
+
+#game2:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}

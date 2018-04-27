@@ -1,0 +1,37 @@
+extends signUp_layout
+
+block content
+  div(id = "SignUp")
+    h1 注册
+       form(id = "data" method = "post" onsubmit = "return checkData()")
+           p 用户 ： 
+              input(id = "username" name = "username" type = "text" value = "")
+              span #{error_username}
+
+           p 学号 ： 
+              input(id = "studentId" name = "studentId" type = "text" value = "")
+              span #{error_studentId}
+
+           p 电话 ： 
+              input(id = "phone" name = "phone" type = "text" value = "")
+              span #{error_phone}
+
+           p 邮箱 ： 
+              input(id = "email" name = "email" type = "text" value = "")
+              span #{error_email}
+
+           p 密码 ： 
+              input(id = "password" name = "password" type = "text" value = "")
+              span
+
+           p 确认 ： 
+              input(id = "repeat" name = "repeat" type = "text" value = "")
+              span
+
+           input(id = "reset" name = "reset" type = "button" value = "重置" onclick = "clear()")
+
+           input(id = "submit" name = "submit" type = "submit" value = "提交")
+
+           input(id = "explain" name = "explain" type = "button" value = "说明")
+
+           a(id = "login" href = "/signin") 登录

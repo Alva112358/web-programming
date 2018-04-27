@@ -1,0 +1,290 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image : url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508343372927&di=8994f7a5de06be676a12abe1dbc82d73&imgtype=0&src=http%3A%2F%2Fimg.ph.126.net%2F6RBB9MjwYPm75AibfUoK2g%3D%3D%2F3046403672940777949.jpg");
+}
+
+#count {
+	position: absolute;
+	left: 350px;
+	height: 60px;
+	width : 200px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 60px;
+	font-size: 30pt;
+	border-radius: 5px;
+}
+
+#outside {
+	position: relative;
+	height: 520px;
+	width: 470px;
+	text-align: center;
+	top: 70px;
+	margin: auto;
+}
+
+#title {
+	position: absolute;
+	width: 350px;
+	height: 60px;
+	border: 1px solid black;
+	left: 60px;
+	top: 10px;
+	font-size: 30pt;
+}
+
+#picture {
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 355px;
+	left: 60px;
+	top: 90px;
+	border: 1px solid black;
+}
+
+#Button {
+	position: absolute;
+	width: 120px;
+	height: 37px;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	font-size: 15pt;
+	background-color: #0066CC;
+	border-radius: 5px;
+	line-height: 35px;
+	left: 100px;
+	bottom: 20px;
+	cursor: pointer;
+}
+
+#Button:active {
+	box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#ButtonTwo {
+	position: absolute;
+	width: 120px;
+	height: 37px;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	font-size: 15pt;
+	background-color: #0066CC;
+	border-radius: 5px;
+	line-height: 35px;
+	right: 100px;
+	bottom: 20px;
+	cursor: pointer;
+}
+
+#ButtonTwo:active {
+	box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#ButtonThr {
+	position: absolute;
+	width: 120px;
+	height: 37px;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	font-size: 15pt;
+	background-color: #0066CC;
+	border-radius: 5px;
+	line-height: 35px;
+	right: 100px;
+	bottom: -30px;
+	cursor: pointer;
+}
+
+#ButtonThr:active {
+	box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#ButtonFor {
+	position: absolute;
+	width: 120px;
+	height: 37px;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	font-size: 15pt;
+	background-color: #0066CC;
+	border-radius: 5px;
+	line-height: 35px;
+	left: 100px;
+	bottom: -30px;
+	cursor: pointer;
+}
+
+#ButtonFor:active {
+	box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+.puzzle:active{
+	box-shadow: 0 0 5px 5px dodgerblue;	
+}
+
+.position1 {
+	top: 3px;
+	left: 2px;
+}
+.position2 {
+	top: 3px;
+	left: 89px;
+}
+.position3 {
+	top: 3px;
+	left: 176px;
+}
+.position4 {
+	top: 3px;
+	left: 263px;
+}
+.position5 {
+	top: 91px;
+	left: 2px;
+}
+.position6 {
+	top: 91px;
+	left: 89px;
+}
+.position7 {
+	top: 91px;
+	left: 176px;
+}
+.position8 {
+	top: 91px;
+	left: 263px;
+}
+.position9 {
+	top: 179px;
+	left: 2px;
+}
+.position10 {
+	top: 179px;
+	left: 89px;
+}
+.position11 {
+	top: 179px;
+	left: 176px;
+}
+.position12 {
+	top: 179px;
+	left: 263px;
+}
+.position13 {
+	top: 267px;
+	left: 2px;
+}
+.position14 {
+	top: 267px;
+	left: 89px;
+}
+.position15 {
+	top: 267px;
+	left: 176px;
+}
+.position16 {
+	top: 267px;
+	left: 263px;
+}
+
+#P1 {
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+
+#P2 {
+	background-position: -85px 0px;
+	cursor: pointer;
+}
+
+#P3 {
+	background-position: -169px 0px;
+	cursor: pointer;
+}
+
+#P4 {
+	background-position: -253px 0px;
+	cursor: pointer;
+}
+
+#P5 {
+	background-position: 0px -84px;
+	cursor: pointer;
+}
+
+#P6 {
+	background-position: -85px -84px;
+	cursor: pointer;
+}
+
+#P7 {
+	background-position: -169px -84px;
+	cursor: pointer;
+}
+
+#P8 {
+	background-position: -253px -84px;
+	cursor: pointer;
+}
+
+#P9 {
+	background-position: 0px -168px;
+	cursor: pointer;
+}
+
+#P10 {
+	background-position: -85px -168px;
+	cursor: pointer;
+}
+
+#P11 {
+	background-position: -169px -168px;
+	cursor: pointer;
+}
+
+#P12 {
+	background-position: -253px -168px;
+	cursor: pointer;
+}
+
+#P13 {
+	background-position: 0px -252px;
+	cursor: pointer;
+}
+
+#P14 {
+	background-position: -85px -252px;
+	cursor: pointer;
+}
+
+#P15 {
+	background-position: -169px -252px;
+	cursor: pointer;
+}
+
+#P16 {
+	opacity: 0;
+}
+
+.puzzle {
+	position: absolute;
+	transition: 0.1s;
+	background-image: url('panda.jpg');
+	width: 84px;
+	height: 84px;
+	border: 1px solid black;
+}

@@ -1,0 +1,20 @@
+extends detail_layout
+
+block content
+    div(id = "SignUp")
+       h1 用户详情
+            div(id = "username")
+              p 用户 ： #{user.username}
+
+            div(id = "studentId")
+              p 学号 ： #{user.studentId}
+
+            div(id = "phone")
+              p 电话 ： #{user.phone}
+
+            div(id = "email")
+              p 邮箱 ： #{user.email} 
+          
+            a(id = "quit" href = "/logout") 退出登录
+
+       div(id = "warning") #{warning}

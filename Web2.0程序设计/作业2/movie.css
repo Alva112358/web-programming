@@ -1,0 +1,144 @@
+	body {
+		background-image : url('background.png');
+		font-family : Verdana，Tahoma, sans-serif;
+		font-size : 8pt;
+		margin : 0;
+	}
+
+	dl {
+		margin-left : 10px;
+	}
+
+	dt {
+		font-weight : bold;
+	}
+
+	dd {
+		margin-bottom : 1em;
+	}
+
+	#TopPicture {
+		text-align : center;
+		background-image : url('bannerbackground.png');
+		background-repeat : repeat-x;
+		background-size : 50;
+	}
+
+	#Title {
+		font-size : 24pt;
+		font-family : Verdana, Tahoma, sans-serif;
+		font-weight : bold;
+		text-align : center;
+	}
+
+	#TopPicture img {
+		height : 49.5px;
+	}
+
+
+/*--------------The main four parts of this page--------------*/
+	#OutBorder {
+		border-color : gray;
+		border-style : solid;
+		border-width : 4px;
+		margin : auto;
+		width : 800px;
+	}
+
+	#W3C-Picture {
+		position : absolute;
+		bottom : -65%;
+		right : 4.5px;
+	}
+
+	#LeftTop {
+		background-image : url('rottenbackground.png');
+		background-repeat : repeat-x;
+		float : left;
+		width : 550px;
+	}
+
+	#RightTop {
+		background-color : #A2B964;
+		font-family : Arial;
+		font-size : 8pt;
+		float : right;
+		width : 250px;
+	}
+
+	#LeftMiddle {
+		width : 550px;
+		clear : left;
+	}
+
+	#End {
+		clear : both;
+		background-color : #A2B964;
+		background-size : 50px;
+		text-align : center;
+		width : 800px;
+	}
+
+/*--------------The main four parts of this page--------------*/
+
+	#LeftTopElementOne {
+		color : red;
+		font-size : 48pt;
+		font-weight : bold;
+		font-family : Tahoma, Verdana, sans-serif;
+	}
+
+	#LeftTopElementTwo {
+		color : white;
+		font-size : 8pt;
+	}
+
+	#rottonFlower {
+		margin-bottom : 0;
+		float : left;
+	}
+
+	#EndWord {
+		margin : 0;
+		padding-top : 5px;
+		padding-bottom : 5px;
+	}
+
+	.CommentsRight {
+		width : 47%;
+		margin-right : 2%;
+		padding-bottom : 2em;
+		float : right;
+	}
+
+	.CommentsLeft {
+		width : 47%;
+		margin-left : 2%;
+		padding-bottom : 2em;
+        float : left;
+        clear : left;	
+	}
+
+	.MyBorder {
+		background-color : #E1D697;
+		border-color : gray;
+		border-width : 2px;
+        border-style : solid;
+        margin-top : 8px;
+        padding : 8px 8px 8px 8px;
+    }
+
+	.body-comments {
+		font-family : Verdana, Tahoma, sans-serif;
+		font-weight : bold;
+		font-size : 8pt;
+	}
+
+	.BorderSet {
+		margin : 0;
+	}
+
+	.picture {
+		float : left;
+		margin-right : 5px;
+	}

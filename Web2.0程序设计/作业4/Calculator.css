@@ -1,0 +1,87 @@
+html,body {
+	width : 100%;
+	height : 100%;
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+}
+
+body {
+	background-repeat : no-repeat;
+	background-image : url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508343372927&di=8994f7a5de06be676a12abe1dbc82d73&imgtype=0&src=http%3A%2F%2Fimg.ph.126.net%2F6RBB9MjwYPm75AibfUoK2g%3D%3D%2F3046403672940777949.jpg");
+}
+
+#Calculator {
+	position : relative;
+	width : 312px;
+	height : 420px;
+	margin : auto;
+	margin-top : 100px;
+	background-color: #368590;
+	border-radius : 5px;
+}
+
+#Display {
+	position : relative;
+	width : 300px;
+	height : 100px;
+	margin : auto;
+	margin-top : 5px;
+}
+
+#screen {
+	position : absolute;
+	height : 70px;
+	width : 280px;
+	margin : auto;
+	margin-top : 13px;
+	margin-left : 10px;
+	line-height : 70px;
+	font-size : 18pt;
+	font-weight : bold;
+	background-color : #96A4C2;
+	border : 1px solid black;
+	border-radius : 5px;
+}
+
+#Button_Part {
+	width : 300px;
+	height : 305px;
+	margin : auto;
+}
+
+.Button-Row {
+	position : relative;
+	width : 300px;
+	height : 60px;
+	text-align : center;
+	margin : auto;
+}
+
+button {
+	margin-top : 10px;
+	margin-left : 7.5px;
+	margin-right : 7.5px;
+	cursor : pointer;
+	width : 55px;
+	height : 40px;
+	border : 1px solid black;
+	color : white;
+	font-weight : bold;
+	font-size : 12pt;
+	background-color : #F5F5F5;
+	border-radius : 5px;
+	outline : none;
+}
+
+button:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+.operator {
+	background-color : #FB9518;
+}
+
+.number {
+	background-color : #2B2F5B;
+}

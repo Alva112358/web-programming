@@ -1,0 +1,317 @@
+body {
+	overflow : hidden;
+}
+
+ul {
+	list-style : none;
+}
+
+.button,.info,.apb {
+	position : absolute;
+	left : 500px;
+	top : 380px;
+}
+
+#button:hover span {
+	display : block;
+}
+
+#button:hover img {
+	display : block;
+	transform : scale(1.2);
+}
+
+/*-----------------------INFO--------------------------*/
+
+.info {
+	display : none;
+	border-radius : 50%;
+	width : 30px;
+	height : 30px;
+	background-color : #9C9C9C;
+	overflow : hidden;
+	transition : all 1s;
+}
+
+.info span {
+	display : none;
+}
+
+.info img {
+	display : none;
+}
+
+#button:hover .info {
+	border-width : 1px;
+	border-radius : 50%;
+	top : 220px;
+	left : 450px;
+	width : 130px;
+	height : 130px;
+	background-color : #9C9C9C;
+	transition : all 1s;
+}
+
+/*-----------------------INFO--------------------------*/
+
+
+
+
+
+/*---------------------- ICON--------------------------*/
+
+.apb {
+	width : 30px;
+	height : 30px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-repeat : no-repeat;
+	background-position : center;
+	background-image : url('assets/images/atplus_white.png');
+}
+
+#button:hover .apb {
+	left : 500px;
+	top : 380px;
+    background-color : rgba(48, 63, 159, 1);
+    background-image : url('assets/images/atplus_green.png');
+    background-size : 90%;
+    transition : all 1s;
+    transform : scale(2);
+}
+
+/*---------------------- ICON--------------------------*/
+
+
+
+
+
+
+/*------------------Control Ring-----------------------*/
+
+.mask {
+	width : 30px;
+	height : 30px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/nomask.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+#button:hover .mask {
+	width : 40px;
+	height : 40px;
+	top : 330px;
+	left : 420px;
+	border-radius : 50%;
+	position : absolute;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/nomask.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+.history {
+	width : 30px;
+	height : 30px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/history.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+#button:hover .history {
+	width : 40px;
+	height : 40px;
+	top : 380px;
+	left : 400px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/history.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+.message {
+	width : 30px;
+	height : 30px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/message.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+#button:hover .message {
+	width : 40px;
+	height : 40px;
+	border-radius : 50%;
+	top : 430px;
+	left : 425px;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/message.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+.unread {
+	overflow : hidden;
+	display : none;
+}
+
+#button:hover .unread {
+	display : block;
+	width : 20px;
+	height : 20px;
+	position : absolute;
+	border-radius : 50%;
+	background-color : red;
+	text-align : center;
+	top : -10%;
+	left : 68%;
+	color : #E8D6DC;
+}
+
+.setting {
+	width : 30px;
+	height : 30px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/setting.png');
+	background-repeat : no-repeat;
+	background-position : center;	
+	transition : all 1s;
+}
+
+#button:hover .setting {
+	width : 40px;
+	height : 40px;
+	top : 470px;
+	left : 470px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/setting.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+.sign {
+	width : 30px;
+	height : 30px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/signin.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+#button:hover .sign {
+	width : 40px;
+	height : 40px;
+	top : 460px;
+	left : 530px;
+	border-radius : 50%;
+	background-color : #9C9C9C;
+	background-image : url('assets/images/signin.png');
+	background-repeat : no-repeat;
+	background-position : center;
+	transition : all 1s;
+}
+
+/*------------------Control Ring-----------------------*/
+
+
+
+
+
+
+/*------------------Info Elements----------------------*/
+.info li {
+	position : absolute;
+}
+
+.button {
+	background-size : 50%;
+}
+
+.user {
+	position : absolute;
+	top : 10%;
+	left : 30%;
+}
+
+.comment {
+	position : absolute;
+	top : 35%;
+	left : 25%;
+}
+
+.user span {
+	font-family : Verdana;
+	font-size : 12pt;
+	position : absolute;
+	color : white;
+	top : 0%;
+	left : 150%;
+}
+
+.comment span {
+	font-family : Verdana;
+	font-size : 22.5pt;
+	color : white;
+	position : absolute;
+	top : -22.5%;
+	left : 170%;
+}
+
+.posted {
+	top : 60%;
+	left : 20%;
+}
+
+.posted span {
+	font-family : Verdana;
+	font-size : 12pt;
+	color : #079E6E;
+	position : absolute;
+	top : 25%;
+	left : 120%;
+}
+
+
+.like {
+	top : 60%;
+	left : 55%;
+}
+
+.like span {
+	font-family : Verdana;
+	font-size : 12pt;
+	color : #079E6E;
+	position : absolute;
+	top : 0px;
+	left : 0px;	
+}
+
+
+#button:hover .like span {
+	font-family : Verdana;
+	font-size : 12pt;
+	color : #079E6E;
+	position : absolute;
+	top : 5px;
+	left : 30px;
+}
+
+
+/*------------------Info Elements----------------------*/

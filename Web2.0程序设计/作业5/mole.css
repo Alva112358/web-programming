@@ -1,0 +1,171 @@
+html body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image : url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508343372927&di=8994f7a5de06be676a12abe1dbc82d73&imgtype=0&src=http%3A%2F%2Fimg.ph.126.net%2F6RBB9MjwYPm75AibfUoK2g%3D%3D%2F3046403672940777949.jpg");
+}
+
+table {
+	border-spacing: 5px	8px;
+}
+
+#back {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 80px;
+	height: 30px;
+	background-color: #368590;
+	font-weight: bold;
+	font-family: Arial;
+	color: #00CC00;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid black; 
+	cursor: pointer;
+}
+
+#back a {
+	color: #00CC00;
+	font-weight: bold;
+	font-family: Arial;	
+}
+
+#back:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#outside {
+	background-color: #368590;
+	position: relative;
+	height: 660px;
+	width: 600px;
+	margin: auto;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+
+#Title {
+	text-align: center;
+}
+
+#main_title {
+	font-size: 20pt;
+	font-weight: bold;
+	font-family: Futura;
+}
+
+#second_title {
+	font-size: 12pt;
+	font-family: Futura;	
+}
+
+#countTime {
+	background-color: #FB9518;
+	width: 540px;
+	height: 30px;
+	border: 1px solid black;
+	margin-left: 30px;
+}
+
+#count {
+	width: 165px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: 100px;
+}
+
+#count:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+#state {
+	background-color: #FB9518;
+	width: 540px;
+	height: 30px;
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+#myState {
+	width: 165px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: 100px;
+}
+
+#myState:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}
+
+
+
+#game {
+	background-color: #FB9518;
+	height: 250px;
+	width: 540px;
+	border: 1px solid black;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+#instruction {
+	background-color: #FB9518;
+	height: 120px;
+	width: 540px;
+	border: 1px solid black;
+	margin-left: 30px;
+	margin-top: 5px;	
+}
+
+#one {
+	font-family: Futura;
+}
+
+li {
+	font-size: 9.5pt;
+	font-family: Futura;
+}
+
+#BorderOne {
+	position: absolute;
+	width: 85px;
+	height: 25px;
+	border: 1px solid black;
+	top: 127px;
+	left: 350px;
+	padding-left: 5px;
+}
+
+#BorderTwo {
+	position: absolute;
+	width: 85px;
+	height: 25px;
+	border: 1px solid black;
+	left: 350px;
+	top: 165px;
+	padding-left: 5px;
+}
+
+.mouse {
+	width: 50px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background-color: #2B2F5B;
+}
+
+.mouse:active {
+    box-shadow: 0 0 5px 5px dodgerblue;
+}
